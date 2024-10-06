@@ -124,7 +124,7 @@ const ImageGenerationUI: React.FC = () => {
         <div className="flex mb-6">
           <Input
             type="text"
-            placeholder="Describe what you want to see"
+            placeholder="type: how2draw a rose flower in 6 steps"
             value={prompt}
             onChange={(e: ChangeEvent<HTMLInputElement>) => setPrompt(e.target.value)}
             className="flex-grow mr-2 bg-gray-800 text-white border-gray-700 focus:border-blue-500 transition-colors duration-300"

@@ -33,7 +33,7 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({ isOpen, onClose }) => {
                 <X size={24} />
               </button>
             </div>
-            <p>Welcome to How2Draw! Let&apos;s get started with your artistic journey.</p>
+            <p>Welcome to How2Draw! &apos;s <br/> Prompt: How2draw a rose flower.</p>
             {/* TODO: Replace with Next.js Image component for better performance */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
