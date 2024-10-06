@@ -37,7 +37,7 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({ isOpen, onClose }) => {
             {/* TODO: Replace with Next.js Image component for better performance */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/path/to/your/image.jpg"
+              src="/logo.jpeg"
               alt="Description of the image"
               className="w-full h-auto mb-4"
             />
