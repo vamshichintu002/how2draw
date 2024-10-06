@@ -1,4 +1,1 @@
-interface SomeInterface {
-  // Add at least one property, even if it's optional
-  someProperty?: string;
-}
+// Remove this file if it's not being used

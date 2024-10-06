@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
-import Image from 'next/image';
+// Remove the unused import
+// import Image from 'next/image';
 
 interface WelcomeModalProps {
   isOpen: boolean;
@@ -33,6 +34,7 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({ isOpen, onClose }) => {
               </button>
             </div>
             <p>Welcome to How2Draw! Let's get started with your artistic journey.</p>
+            {/* Consider replacing this with Next.js Image component in the future */}
             <img
               src="/path/to/your/image.jpg"
               alt="Description of the image"
