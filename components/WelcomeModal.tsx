@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
+import Image from 'next/image';
 
 interface WelcomeModalProps {
   isOpen: boolean;
@@ -31,12 +32,11 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({ isOpen, onClose }) => {
                 <X size={24} />
               </button>
             </div>
-            <p className="text-white mb-4">Type: how2draw a flower</p>
-            <img 
-            
-              src="https://i.ibb.co/pbmSjZ6/flower-how2draw.jpg"
-              alt="Demo: How to draw a flower" //i.ibb.co/rFWV2MK/flower-how2draw.jpg" 
-              className="w-full h-auto rounded-lg mb-4" 
+            <p>Welcome to How2Draw! Let's get started with your artistic journey.</p>
+            <img
+              src="/path/to/your/image.jpg"
+              alt="Description of the image"
+              className="w-full h-auto mb-4"
             />
             <button
               onClick={onClose}
