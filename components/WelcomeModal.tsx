@@ -28,13 +28,14 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({ isOpen, onClose }) => {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold text-white">Welcome to Vamshi's Art!</h2>
+              <h2 className="text-2xl font-bold text-white">Welcome to Vamshi&apos;s Art!</h2>
               <button onClick={onClose} className="text-gray-400 hover:text-white">
                 <X size={24} />
               </button>
             </div>
-            <p>Welcome to How2Draw! Let's get started with your artistic journey.</p>
-            {/* Consider replacing this with Next.js Image component in the future */}
+            <p>Welcome to How2Draw! Let&apos;s get started with your artistic journey.</p>
+            {/* TODO: Replace with Next.js Image component for better performance */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/path/to/your/image.jpg"
               alt="Description of the image"
